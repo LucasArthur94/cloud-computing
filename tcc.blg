@@ -4,16 +4,21 @@ The top-level auxiliary file: tcc.aux
 A level-1 auxiliary file: introducao/objetivo.aux
 A level-1 auxiliary file: introducao/motivacao.aux
 A level-1 auxiliary file: introducao/justificativa.aux
-A level-1 auxiliary file: introducao/organizacao_do_trabalho.aux
+A level-1 auxiliary file: aspectos_conceituais/necessidades.aux
+A level-1 auxiliary file: aspectos_conceituais/funcionamento_basico.aux
+A level-1 auxiliary file: aspectos_conceituais/conceitos_usados.aux
+A level-1 auxiliary file: aspectos_tecnicos/estrutura.aux
+A level-1 auxiliary file: aspectos_tecnicos/evolucao_tecnologica.aux
+A level-1 auxiliary file: solucoes_mercado/aws.aux
+A level-1 auxiliary file: solucoes_mercado/gcloud.aux
+A level-1 auxiliary file: solucoes_mercado/heroku.aux
+A level-1 auxiliary file: solucoes_mercado/comparativo.aux
 The style file: abntex2-num.bst
 I couldn't open database file .bib
----line 18 of file tcc.aux
+---line 22 of file tcc.aux
  : \bibdata{abntex2-options,
  :                          }
 I'm skipping whatever remains of this command
-A level-1 auxiliary file: apendices/levantamento_requisitos.aux
-A level-1 auxiliary file: anexos/documento_visao.aux
-A level-1 auxiliary file: anexos/diagramas_bpmn.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -35,7 +40,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 1 entry,
             6714 wiz_defined-function locations,
-            1203 strings with 9511 characters,
+            1208 strings with 9691 characters,
 and the built_in function-call counts, 891 in all, are:
 = -- 192
 > -- 0

@@ -1116,6 +1116,14 @@
 
 \newcommand{\PoliTipoDocData}{}
 
+%% Trabalho Genérico
+\newcommand{\trabalhoGenerico}[1]{%
+  \renewcommand{\PoliTipoDocData}{Trabalho de Conclusão de Curso}
+  \comentario{Trabalho apresentado à Escola
+    Politécnica da Universidade de
+    São Paulo para a disciplina de #1.}%
+}
+
 %% TCC
 \newcommand{\tcc}[1]{%
   \renewcommand{\PoliTipoDocData}{Trabalho de Conclusão de Curso}

@@ -43,37 +43,33 @@
 % Título
 \titulo{Título}
 
-% Autor
-\autor{Lucas Arthur Felgueiras}
-
 % Para múltiplos autores (TCC)
-%\autor{Nome Sobrenome\\%
-%		Nome Sobrenome\\%
-%		Nome Sobrenome}
+\autor{Daniel Norio Takasu Rebelo\\%
+    Lucas Arthur Felgueiras\\%
+		Luiz Gustavo dos Santos\\%
+		Victor França Ferreira}
 
 % Orientador / Coorientador
-\orientador{Prof. Dr. Fabio Levy Siqueira}
+\orientador{Profª. Drª. Selma Shin Shimizu Melnikoff}
 % \coorientador{Nome do coorientador (opcional)}
 
 % Tipo de documento
-\tcc{Engenheiro de Computação}
-%\dissertacao{Engenharia Elétrica}
+\trabalhoGenerico{Engenharia de Sistemas}
+%\tcc{Engenharia de Computação}
+%\dissertacao{Engenharia de Computação}
 %\teseDOC{Engenharia Elétrica}
 %\teseLD
 %\memorialLD
 
 % Departamento e área de concentração
 \departamento{Engenharia de Computação e Sistemas Digitais}
-\areaConcentracao{Engenharia de Software}
+\areaConcentracao{Engenharia de Sistemas}
 
 % Local
 \local{São Paulo}
 
 % Ano
 \data{2018}
-
-
-
 
 \begin{document}
 % ========== Capa e folhas de rosto ==========
@@ -96,15 +92,15 @@
 
 
 % ========== Dedicatória (opcional) ==========
-\dedicatoria{Dedicatória}
+% \dedicatoria{Dedicatória}
 
 
 % ========== Agradecimentos ==========
-\begin{agradecimentos}
+% \begin{agradecimentos}
 
-Thanks...
+% Thanks...
 
-\end{agradecimentos}
+% \end{agradecimentos}
 
 
 % ========== Epígrafe (opcional) ==========
@@ -122,7 +118,7 @@ Resumo...
 %
 \\[3\baselineskip]
 %
-\textbf{Palavras-Chave} -- Palavra, Palavra, Palavra, Palavra, Palavra.
+\textbf{Palavras-Chave} -- Nuvem, Arquitetura, Computação, Engenharia, Programa.
 \end{resumo}
 
 
@@ -132,7 +128,7 @@ Abstract...
 %
 \\[3\baselineskip]
 %
-\textbf{Keywords} -- Word, Word, Word, Word, Word.
+\textbf{Keywords} -- Cloud, Architecture, Computing, Enginnering, Software.
 \end{abstract}
 
 
@@ -141,16 +137,14 @@ Abstract...
 \listadetabelas
 
 % ========== Listas definidas pelo usuário (opcional) ==========
-\begin{pretextualsection}{Lista de símbolos}
+% \begin{pretextualsection}{Lista de símbolos}
 
-Lista de símbolos...
+% Lista de símbolos...
 
-\end{pretextualsection}
+% \end{pretextualsection}
 
 % ========== Sumário ==========
 \sumario
-
-
 
 % ========== Elementos textuais ==========
 
@@ -159,27 +153,24 @@ Lista de símbolos...
 \include{introducao/objetivo}
 \include{introducao/motivacao}
 \include{introducao/justificativa}
-\include{introducao/organizacao_do_trabalho}
 
 \part{Aspectos Conceituais}
 
-\include{aspectos_conceituais/casos_de_uso}
-% \include{aspectos_conceituais/levantamento_requisitos}
-% \include{aspectos_conceituais/continuous_delivery}
+\include{aspectos_conceituais/necessidades}
+\include{aspectos_conceituais/funcionamento_basico}
+\include{aspectos_conceituais/conceitos_usados}
 
-\part{Tecnologias Utilizadas}
-\part{Metodologia de Trabalho}
-\part{Especificação de Requisitos do Sistema}
+\part{Aspectos Técnicos}
 
-% =========================================
-\part{Projeto e Implementação}
-\part{Testes e Implementação}
-\part{Considerações Finais}
+\include{aspectos_tecnicos/estrutura}
+\include{aspectos_tecnicos/evolucao_tecnologica}
 
-% \include{conclusoes_projeto_formatura}
-% \include{contribuicoes}
-% \include{perspectivas_continuidade}
-	
+\part{Soluções do Mercado}
+
+\include{solucoes_mercado/aws}
+\include{solucoes_mercado/gcloud}
+\include{solucoes_mercado/heroku}
+\include{solucoes_mercado/comparativo}
 
 % ========== Referências ==========
 % --- IEEE ---
@@ -192,15 +183,11 @@ Lista de símbolos...
 
 \bibliography{}
 
-
 % ========== Apêndices (opcional) ==========
 \apendice
-\include{apendices/levantamento_requisitos}
 
 
 % ========== Anexos (opcional) ==========
 \anexo
-\include{anexos/documento_visao}
-\include{anexos/diagramas_bpmn}
 
 \end{document}

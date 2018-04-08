@@ -1,30 +1,34 @@
 \babel@toc {brazil}{}
-\contentsline {chapter}{Parte~I:~\MakeUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{9}
-\contentsline {chapter}{\numberline {1}Objetivo}{10}
-\contentsline {section}{\numberline {1.1}Introdu\IeC {\c c}\IeC {\~a}o}{10}
-\contentsline {chapter}{\numberline {2}Motiva\IeC {\c c}\IeC {\~a}o}{11}
-\contentsline {section}{\numberline {2.1}Contexto}{11}
-\contentsline {chapter}{\numberline {3}Justificativa}{12}
-\contentsline {section}{\numberline {3.1}Introdu\IeC {\c c}\IeC {\~a}o}{12}
-\contentsline {chapter}{Parte~II:~\MakeUppercase {Aspectos Conceituais}}{13}
-\contentsline {chapter}{\numberline {4}Necessidades}{14}
-\contentsline {section}{\numberline {4.1}Introdu\IeC {\c c}\IeC {\~a}o}{14}
-\contentsline {chapter}{\numberline {5}Funcionamento B\IeC {\'a}sico}{15}
-\contentsline {section}{\numberline {5.1}Introdu\IeC {\c c}\IeC {\~a}o}{15}
-\contentsline {chapter}{\numberline {6}Conceitos Usados}{16}
-\contentsline {section}{\numberline {6.1}Introdu\IeC {\c c}\IeC {\~a}o}{16}
-\contentsline {chapter}{Parte~III:~\MakeUppercase {Aspectos T\IeC {\'e}cnicos}}{17}
-\contentsline {chapter}{\numberline {7}Estrutura}{18}
-\contentsline {section}{\numberline {7.1}Introdu\IeC {\c c}\IeC {\~a}o}{18}
-\contentsline {chapter}{\numberline {8}Evolu\IeC {\c c}\IeC {\~a}o Tecnol\IeC {\'o}gica}{19}
-\contentsline {section}{\numberline {8.1}Introdu\IeC {\c c}\IeC {\~a}o}{19}
-\contentsline {chapter}{Parte~IV:~\MakeUppercase {Solu\IeC {\c c}\IeC {\~o}es do Mercado}}{20}
-\contentsline {chapter}{\numberline {9}Amazon Web Services}{21}
-\contentsline {section}{\numberline {9.1}Introdu\IeC {\c c}\IeC {\~a}o}{21}
-\contentsline {chapter}{\numberline {10}Google Cloud}{22}
-\contentsline {section}{\numberline {10.1}Introdu\IeC {\c c}\IeC {\~a}o}{22}
-\contentsline {chapter}{\numberline {11}Heroku}{23}
-\contentsline {section}{\numberline {11.1}Introdu\IeC {\c c}\IeC {\~a}o}{23}
-\contentsline {chapter}{\numberline {12}Comparativo}{24}
-\contentsline {section}{\numberline {12.1}Introdu\IeC {\c c}\IeC {\~a}o}{24}
-\contentsline {chapter}{Refer\IeC {\^e}ncias}{25}
+\contentsline {chapter}{Parte~I:~\MakeUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{8}
+\contentsline {chapter}{\numberline {1}Objetivo}{9}
+\contentsline {section}{\numberline {1.1}Introdu\IeC {\c c}\IeC {\~a}o}{9}
+\contentsline {chapter}{\numberline {2}Motiva\IeC {\c c}\IeC {\~a}o}{10}
+\contentsline {section}{\numberline {2.1}Contexto}{10}
+\contentsline {chapter}{\numberline {3}Justificativa}{11}
+\contentsline {section}{\numberline {3.1}Introdu\IeC {\c c}\IeC {\~a}o}{11}
+\contentsline {chapter}{Parte~II:~\MakeUppercase {Aspectos Conceituais}}{12}
+\contentsline {chapter}{\numberline {4}Necessidades}{13}
+\contentsline {section}{\numberline {4.1}Introdu\IeC {\c c}\IeC {\~a}o}{13}
+\contentsline {chapter}{\numberline {5}Funcionamento B\IeC {\'a}sico}{14}
+\contentsline {section}{\numberline {5.1}Introdu\IeC {\c c}\IeC {\~a}o}{14}
+\contentsline {chapter}{\numberline {6}Conceitos Usados}{15}
+\contentsline {section}{\numberline {6.1}Introdu\IeC {\c c}\IeC {\~a}o}{15}
+\contentsline {chapter}{Parte~III:~\MakeUppercase {Aspectos T\IeC {\'e}cnicos}}{16}
+\contentsline {chapter}{\numberline {7}Estrutura}{17}
+\contentsline {section}{\numberline {7.1}Introdu\IeC {\c c}\IeC {\~a}o}{17}
+\contentsline {chapter}{\numberline {8}Evolu\IeC {\c c}\IeC {\~a}o Tecnol\IeC {\'o}gica}{18}
+\contentsline {section}{\numberline {8.1}Introdu\IeC {\c c}\IeC {\~a}o}{18}
+\contentsline {chapter}{Parte~IV:~\MakeUppercase {Solu\IeC {\c c}\IeC {\~o}es do Mercado}}{19}
+\contentsline {chapter}{\numberline {9}Amazon Web Services}{20}
+\contentsline {section}{\numberline {9.1}Introdu\IeC {\c c}\IeC {\~a}o}{20}
+\contentsline {chapter}{\numberline {10}Google Cloud}{21}
+\contentsline {section}{\numberline {10.1}Introdu\IeC {\c c}\IeC {\~a}o}{21}
+\contentsline {chapter}{\numberline {11}Heroku}{22}
+\contentsline {section}{\numberline {11.1}Introdu\IeC {\c c}\IeC {\~a}o}{22}
+\contentsline {section}{\numberline {11.2}Funcionamento b\IeC {\'a}sico}{22}
+\contentsline {section}{\numberline {11.3}Tarifa\IeC {\c c}\IeC {\~a}o}{23}
+\contentsline {section}{\numberline {11.4}\textit {Containers}}{24}
+\contentsline {section}{\numberline {11.5}Conclus\IeC {\~a}o}{25}
+\contentsline {chapter}{\numberline {12}Azure}{26}
+\contentsline {section}{\numberline {12.1}Introdu\IeC {\c c}\IeC {\~a}o}{26}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{27}

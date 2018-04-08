@@ -5,4 +5,21 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem{safariheroku}
+\abntrefinfo{Schneeman e Middleton}{SCHNEEMAN; MIDDLETON}{2013}
+{SCHNEEMAN, R.; MIDDLETON, N. \emph{Heroku: Up and Running}. 2013.
+Dispon{\'\i}vel em:
+  \url{https://www.safaribooksonline.com/library/view/heroku-up-and/9781449341381/ch02.html}.}
+
+\bibitem{dockercontainer}
+\abntrefinfo{Docker}{DOCKER}{2018}
+{DOCKER. \emph{What is a Container}. 2018.
+Dispon{\'\i}vel em: \url{https://www.docker.com/what-container}.}
+
+\bibitem{herokucontainerregistry}
+\abntrefinfo{Heroku}{HEROKU}{2018}
+{HEROKU. \emph{Container Registry \& Runtime (Docker Deploys)}. 2018.
+Dispon{\'\i}vel em:
+  \url{https://devcenter.heroku.com/articles/container-registry-and-runtime}.}
+
 \end{thebibliography}

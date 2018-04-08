@@ -12,13 +12,8 @@ A level-1 auxiliary file: aspectos_tecnicos/evolucao_tecnologica.aux
 A level-1 auxiliary file: solucoes_mercado/aws.aux
 A level-1 auxiliary file: solucoes_mercado/gcloud.aux
 A level-1 auxiliary file: solucoes_mercado/heroku.aux
-A level-1 auxiliary file: solucoes_mercado/comparativo.aux
+A level-1 auxiliary file: solucoes_mercado/azure.aux
 The style file: abntex2-num.bst
-I couldn't open database file .bib
----line 22 of file tcc.aux
- : \bibdata{abntex2-options,
- :                          }
-I'm skipping whatever remains of this command
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -29,6 +24,13 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
+Database file #2: refs.bib
+Warning--entry type for "safariheroku" isn't style-file defined
+--line 1 of file refs.bib
+Warning--entry type for "dockercontainer" isn't style-file defined
+--line 9 of file refs.bib
+Warning--entry type for "herokucontainerregistry" isn't style-file defined
+--line 17 of file refs.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -38,45 +40,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 1 entry,
+You've used 4 entries,
             6714 wiz_defined-function locations,
-            1208 strings with 9691 characters,
-and the built_in function-call counts, 891 in all, are:
-= -- 192
-> -- 0
-< -- 0
-+ -- 46
-- -- 0
-* -- 36
-:= -- 175
-add.period$ -- 0
-call.type$ -- 1
-change.case$ -- 3
-chr.to.int$ -- 1
-cite$ -- 0
-duplicate$ -- 3
-empty$ -- 40
-format.name$ -- 0
-if$ -- 204
+            1223 strings with 10071 characters,
+and the built_in function-call counts, 6337 in all, are:
+= -- 911
+> -- 50
+< -- 192
++ -- 256
+- -- 16
+* -- 340
+:= -- 813
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 25
+chr.to.int$ -- 4
+cite$ -- 3
+duplicate$ -- 654
+empty$ -- 206
+format.name$ -- 81
+if$ -- 1225
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 29
+missing$ -- 59
+newline$ -- 23
+num.names$ -- 12
+pop$ -- 100
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 13
 quote$ -- 0
-skip$ -- 80
+skip$ -- 754
 stack$ -- 1
-substring$ -- 49
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 295
+swap$ -- 221
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 2
+while$ -- 20
 width$ -- 0
-write$ -- 7
-(There was 1 error message)
+write$ -- 43
+(There were 3 warnings)

@@ -5,6 +5,25 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem{cloudcomputing}
+\abntrefinfo{Johnston}{JOHNSTON}{2013}
+{JOHNSTON, S. \emph{Diagrama ilustrando Computação em Nuvem}. 2013.
+Dispon{\'\i}vel em:
+  \url{https://upload.wikimedia.org/wikipedia/commons/b/b5/Cloud\_computing.svg}.}
+
+\bibitem{ec2history}
+\abntrefinfo{Amazon}{AMAZON}{2017}
+{AMAZON. \emph{Amazon EC2: Boas Práticas e Otimizações de Desempenho}. 2017.
+Dispon{\'\i}vel em:
+  \url{https://www.slideshare.net/AmazonWebServicesLATAM/amazon-ec2-boas-praticas-e-otimizaes-de-desempenho}.}
+
+\bibitem{clouds}
+\abntrefinfo{Baldassari}{BALDASSARI}{2017}
+{BALDASSARI, J. \emph{A detailed look at why mabl Chose Google Cloud Platform
+  (GCP) over AWS}. 2017.
+Dispon{\'\i}vel em:
+  \url{https://www.mabl.com/blog/why-we-chose-google-cloud-platform-over-aws-at-mabl}.}
+
 \bibitem{googlecloudservices}
 \abntrefinfo{Langit}{LANGIT}{2017}
 {LANGIT, L. \emph{Scaling Galaxy on Google Cloud Platform}. 2017.
@@ -16,6 +35,27 @@ Dispon{\'\i}vel em:
 {SCHNEEMAN, R.; MIDDLETON, N. \emph{Heroku: Up and Running}. 2013.
 Dispon{\'\i}vel em:
   \url{https://www.safaribooksonline.com/library/view/heroku-up-and/9781449341381/ch02.html}.}
+
+\bibitem{quotes}
+\abntrefinfo{McKendrick}{MCKENDRICK}{2013}
+{MCKENDRICK, J. \emph{10 Quotes on Cloud Computing That Really Say it All}.
+  2013.
+Dispon{\'\i}vel em:
+  \url{https://www.forbes.com/sites/joemckendrick/2013/03/24/10-quotes-on-cloud-computing-that-really-say-it-all/\#1e8843877f6c}.}
+
+\bibitem{precloudcomputing}
+\abntrefinfo{UKEssays}{UKESSAYS}{2013}
+{UKESSAYS. \emph{Life Before Cloud Computing Information Technology Essay}.
+  2013.
+Dispon{\'\i}vel em:
+  \url{https://www.ukessays.com/essays/information-technology/life-before-cloud-computing-information-technology-essay.php}.}
+
+\bibitem{postamazonec2}
+\abntrefinfo{Amazon}{AMAZON}{2006}
+{AMAZON. \emph{Announcing Amazon Elastic Compute Cloud (Amazon EC2) - beta}.
+  2006.
+Dispon{\'\i}vel em:
+  \url{https://aws.amazon.com/pt/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/}.}
 
 \bibitem{googlecloudfunctions}
 \abntrefinfo{Google}{GOOGLE}{2018a}

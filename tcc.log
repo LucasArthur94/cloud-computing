@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.14)  9 APR 2018 18:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.14)  9 APR 2018 20:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -672,8 +672,8 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count135
 \c@blind@pangrammax=\count136
 ) (./tcc.aux
-(./introducao/objetivo.aux) (./introducao/motivacao.aux)
-(./introducao/justificativa.aux) (./aspectos_conceituais/necessidades.aux)
+(./introducao/objetivo.aux) (./introducao/historico.aux)
+(./aspectos_conceituais/necessidades.aux)
 (./aspectos_conceituais/funcionamento_basico.aux)
 (./aspectos_conceituais/conceitos_usados.aux)
 (./aspectos_tecnicos/estrutura.aux)
@@ -865,6 +865,24 @@ less on input line 151.
 
  (./introducao/objetivo.tex
 Cap\'{\i }tulo 1.
+Package epstopdf Info: Source file: <imagens/cloud_computing.eps>
+(epstopdf)                    date: 2018-04-09 19:05:03
+(epstopdf)                    size: 1020998 bytes
+(epstopdf)             Output file: <imagens/cloud_computing-eps-converted-to.p
+df>
+(epstopdf)                    date: 2018-04-09 19:05:16
+(epstopdf)                    size: 846774 bytes
+(epstopdf)             Command: <repstopdf --outfile=imagens/cloud_computing-ep
+s-converted-to.pdf imagens/cloud_computing.eps>
+(epstopdf)             \includegraphics on input line 8.
+Package epstopdf Info: Output file is already uptodate.
+<imagens/cloud_computing-eps-converted-to.pdf, id=38, 810.02625pt x 727.71875pt
+>
+File: imagens/cloud_computing-eps-converted-to.pdf Graphic file (type pdf)
+<use imagens/cloud_computing-eps-converted-to.pdf>
+Package pdftex.def Info: imagens/cloud_computing-eps-converted-to.pdf  used on 
+input line 8.
+(pdftex.def)             Requested size: 324.00475pt x 291.08234pt.
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
@@ -873,61 +891,92 @@ less on input line 153.
 [9
 
 
-]
-\openout2 = `introducao/motivacao.aux'.
+ <./imagens/cloud_computing-eps-converted-to.pdf>]
+\openout2 = `introducao/historico.aux'.
 
- (./introducao/motivacao.tex
+
+(./introducao/historico.tex
 Cap\'{\i }tulo 2.
-)
+Package epstopdf Info: Source file: <imagens/ec2_history.eps>
+(epstopdf)                    date: 2018-04-09 19:51:41
+(epstopdf)                    size: 470295 bytes
+(epstopdf)             Output file: <imagens/ec2_history-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-04-09 19:53:31
+(epstopdf)                    size: 42757 bytes
+(epstopdf)             Command: <repstopdf --outfile=imagens/ec2_history-eps-co
+nverted-to.pdf imagens/ec2_history.eps>
+(epstopdf)             \includegraphics on input line 20.
+Package epstopdf Info: Output file is already uptodate.
+<imagens/ec2_history-eps-converted-to.pdf, id=55, 640.3925pt x 360.34625pt>
+File: imagens/ec2_history-eps-converted-to.pdf Graphic file (type pdf)
+<use imagens/ec2_history-eps-converted-to.pdf>
+Package pdftex.def Info: imagens/ec2_history-eps-converted-to.pdf  used on inpu
+t line 20.
+(pdftex.def)             Requested size: 384.23846pt x 216.20941pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 154.
+less on input line 26.
 
 [10
 
 
 
 ]
-\openout2 = `introducao/justificativa.aux'.
+Package epstopdf Info: Source file: <imagens/clouds.eps>
+(epstopdf)                    date: 2018-04-09 20:00:29
+(epstopdf)                    size: 3892159 bytes
+(epstopdf)             Output file: <imagens/clouds-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-04-09 20:03:43
+(epstopdf)                    size: 115464 bytes
+(epstopdf)             Command: <repstopdf --outfile=imagens/clouds-eps-convert
+ed-to.pdf imagens/clouds.eps>
+(epstopdf)             \includegraphics on input line 36.
+Package epstopdf Info: Output file is already uptodate.
+<imagens/clouds-eps-converted-to.pdf, id=59, 1146.2825pt x 562.1pt>
+File: imagens/clouds-eps-converted-to.pdf Graphic file (type pdf)
+<use imagens/clouds-eps-converted-to.pdf>
+Package pdftex.def Info: imagens/clouds-eps-converted-to.pdf  used on input lin
+e 36.
+(pdftex.def)             Requested size: 458.50488pt x 224.83601pt.
 
- (./introducao/justificativa.tex
-Cap\'{\i }tulo 3.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 155.
-
-[11
+Overfull \hbox (3.26077pt too wide) in paragraph at lines 36--37
+ [][] 
+ []
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-] [12
+) [11 <./imagens/ec2_history-eps-converted-to.pdf>] [12 <./imagens/clouds-eps-c
+onverted-to.pdf>] [13
 
 
 ]
 \openout2 = `aspectos_conceituais/necessidades.aux'.
 
  (./aspectos_conceituais/necessidades.tex
-Cap\'{\i }tulo 4.
+Cap\'{\i }tulo 3.
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 159.
+less on input line 158.
 
-[13
+[14
 
 
 ]
 \openout2 = `aspectos_conceituais/funcionamento_basico.aux'.
 
  (./aspectos_conceituais/funcionamento_basico.tex
-Cap\'{\i }tulo 5.
+Cap\'{\i }tulo 4.
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 160.
+less on input line 159.
 
-[14
+[15
 
 
 
@@ -935,67 +984,67 @@ less on input line 160.
 \openout2 = `aspectos_conceituais/conceitos_usados.aux'.
 
  (./aspectos_conceituais/conceitos_usados.tex
-Cap\'{\i }tulo 6.
+Cap\'{\i }tulo 5.
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 161.
+less on input line 160.
 
-[15
+[16
 
 
 
-] [16
+] [17
 
 
 ]
 \openout2 = `aspectos_tecnicos/estrutura.aux'.
 
  (./aspectos_tecnicos/estrutura.tex
-Cap\'{\i }tulo 7.
+Cap\'{\i }tulo 6.
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 165.
+less on input line 164.
 
-[17
+[18
 
 
 ]
 \openout2 = `aspectos_tecnicos/evolucao_tecnologica.aux'.
 
  (./aspectos_tecnicos/evolucao_tecnologica.tex
-Cap\'{\i }tulo 8.
+Cap\'{\i }tulo 7.
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 166.
+less on input line 165.
 
-[18
+[19
 
 
 
-] [19
+] [20
 
 
 ]
 \openout2 = `solucoes_mercado/aws.aux'.
 
  (./solucoes_mercado/aws.tex
-Cap\'{\i }tulo 9.
+Cap\'{\i }tulo 8.
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 170.
+less on input line 169.
 
-[20
+[21
 
 
 ]
 \openout2 = `solucoes_mercado/gcloud.aux'.
 
  (./solucoes_mercado/gcloud.tex
-Cap\'{\i }tulo 10.
+Cap\'{\i }tulo 9.
 Package epstopdf Info: Source file: <imagens/google_cloud_services.eps>
 (epstopdf)                    date: 2018-04-09 17:18:15
 (epstopdf)                    size: 1023935 bytes
@@ -1007,8 +1056,8 @@ d-to.pdf>
 ces-eps-converted-to.pdf imagens/google_cloud_services.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
-<imagens/google_cloud_services-eps-converted-to.pdf, id=76, 609.27625pt x 277.0
-35pt>
+<imagens/google_cloud_services-eps-converted-to.pdf, id=101, 609.27625pt x 277.
+035pt>
 File: imagens/google_cloud_services-eps-converted-to.pdf Graphic file (type pdf
 )
 <use imagens/google_cloud_services-eps-converted-to.pdf>
@@ -1031,8 +1080,8 @@ ed-to.pdf>
 oard-eps-converted-to.pdf imagens/google_cloud_dashboard.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
-<imagens/google_cloud_dashboard-eps-converted-to.pdf, id=77, 1369.115pt x 657.4
-5625pt>
+<imagens/google_cloud_dashboard-eps-converted-to.pdf, id=102, 1369.115pt x 657.
+45625pt>
 File: imagens/google_cloud_dashboard-eps-converted-to.pdf Graphic file (type pd
 f)
 <use imagens/google_cloud_dashboard-eps-converted-to.pdf>
@@ -1043,12 +1092,12 @@ sed on input line 20.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 22.
 
-[21
+[22
 
 
 
- <./imagens/google_cloud_services-eps-converted-to.pdf>] [22 <./imagens/google_
-cloud_dashboard-eps-converted-to.pdf>] [23]
+ <./imagens/google_cloud_services-eps-converted-to.pdf>] [23 <./imagens/google_
+cloud_dashboard-eps-converted-to.pdf>] [24]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 70.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
@@ -1056,12 +1105,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
-) [24]
+) [25]
 \openout2 = `solucoes_mercado/heroku.aux'.
 
 
 (./solucoes_mercado/heroku.tex
-Cap\'{\i }tulo 11.
+Cap\'{\i }tulo 10.
 Package epstopdf Info: Source file: <imagens/heroku_architecture.eps>
 (epstopdf)                    date: 2018-04-08 13:35:33
 (epstopdf)                    size: 5760705 bytes
@@ -1073,8 +1122,8 @@ to.pdf>
 e-eps-converted-to.pdf imagens/heroku_architecture.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
-<imagens/heroku_architecture-eps-converted-to.pdf, id=98, 1003.75pt x 950.55125
-pt>
+<imagens/heroku_architecture-eps-converted-to.pdf, id=123, 1003.75pt x 950.5512
+5pt>
 File: imagens/heroku_architecture-eps-converted-to.pdf Graphic file (type pdf)
 <use imagens/heroku_architecture-eps-converted-to.pdf>
 Package pdftex.def Info: imagens/heroku_architecture-eps-converted-to.pdf  used
@@ -1084,7 +1133,7 @@ Package pdftex.def Info: imagens/heroku_architecture-eps-converted-to.pdf  used
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 17.
 
-[25
+[26
 
 
 
@@ -1100,14 +1149,14 @@ to.pdf>
 s-eps-converted-to.pdf imagens/heroku_router_dynos.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
-<imagens/heroku_router_dynos-eps-converted-to.pdf, id=105, 1003.75pt x 670.505p
+<imagens/heroku_router_dynos-eps-converted-to.pdf, id=130, 1003.75pt x 670.505p
 t>
 File: imagens/heroku_router_dynos-eps-converted-to.pdf Graphic file (type pdf)
 <use imagens/heroku_router_dynos-eps-converted-to.pdf>
 Package pdftex.def Info: imagens/heroku_router_dynos-eps-converted-to.pdf  used
  on input line 24.
 (pdftex.def)             Requested size: 200.74644pt x 134.09862pt.
- [26 <./imagens/heroku_router_dynos-eps-converted-to.pdf>]
+ [27 <./imagens/heroku_router_dynos-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <imagens/heroku_dashboard.eps>
 (epstopdf)                    date: 2018-04-08 14:58:58
 (epstopdf)                    size: 1168463 bytes
@@ -1119,18 +1168,18 @@ pdf>
 ps-converted-to.pdf imagens/heroku_dashboard.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
-<imagens/heroku_dashboard-eps-converted-to.pdf, id=112, 598.235pt x 322.20375pt
+<imagens/heroku_dashboard-eps-converted-to.pdf, id=137, 598.235pt x 322.20375pt
 >
 File: imagens/heroku_dashboard-eps-converted-to.pdf Graphic file (type pdf)
 <use imagens/heroku_dashboard-eps-converted-to.pdf>
 Package pdftex.def Info: imagens/heroku_dashboard-eps-converted-to.pdf  used on
  input line 38.
 (pdftex.def)             Requested size: 448.67514pt x 241.6522pt.
- [27 <./imagens/heroku_dashboard-eps-converted-to.pdf>]) [28]
+ [28 <./imagens/heroku_dashboard-eps-converted-to.pdf>]) [29]
 \openout2 = `solucoes_mercado/azure.aux'.
 
  (./solucoes_mercado/azure.tex
-Cap\'{\i }tulo 12.
+Cap\'{\i }tulo 11.
 Package epstopdf Info: Source file: <imagens/azure-regions.eps>
 (epstopdf)                    date: 2018-04-09 16:55:55
 (epstopdf)                    size: 4472859 bytes
@@ -1142,7 +1191,7 @@ Package epstopdf Info: Source file: <imagens/azure-regions.eps>
 converted-to.pdf imagens/azure-regions.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
-<imagens/azure-regions-eps-converted-to.pdf, id=123, 1215.54124pt x 609.27625pt
+<imagens/azure-regions-eps-converted-to.pdf, id=149, 1215.54124pt x 609.27625pt
 >
 File: imagens/azure-regions-eps-converted-to.pdf Graphic file (type pdf)
 <use imagens/azure-regions-eps-converted-to.pdf>
@@ -1158,7 +1207,7 @@ Overfull \hbox (6.66637pt too wide) in paragraph at lines 12--13
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 18.
 
-[29
+[30
 
 
 
@@ -1174,7 +1223,7 @@ f>
 -converted-to.pdf imagens/azure-security.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
-<imagens/azure-security-eps-converted-to.pdf, id=131, 640.3925pt x 360.34625pt>
+<imagens/azure-security-eps-converted-to.pdf, id=156, 640.3925pt x 360.34625pt>
 
 File: imagens/azure-security-eps-converted-to.pdf Graphic file (type pdf)
 <use imagens/azure-security-eps-converted-to.pdf>
@@ -1186,17 +1235,17 @@ Overfull \hbox (25.04909pt too wide) in paragraph at lines 24--25
  [][] 
  []
 
-[30 <./imagens/azure-security-eps-converted-to.pdf>]) [31] (./tcc.bbl)
+[31 <./imagens/azure-security-eps-converted-to.pdf>]) [32] (./tcc.bbl
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 192.
+less on input line 97.
 
-[32
+[33
 
 
 
-] (./tcc.aux (./introducao/objetivo.aux) (./introducao/motivacao.aux)
-(./introducao/justificativa.aux) (./aspectos_conceituais/necessidades.aux)
+]) [34] (./tcc.aux (./introducao/objetivo.aux) (./introducao/historico.aux)
+(./aspectos_conceituais/necessidades.aux)
 (./aspectos_conceituais/funcionamento_basico.aux)
 (./aspectos_conceituais/conceitos_usados.aux)
 (./aspectos_tecnicos/estrutura.aux)
@@ -1204,24 +1253,25 @@ less on input line 192.
 (./solucoes_mercado/gcloud.aux) (./solucoes_mercado/heroku.aux)
 (./solucoes_mercado/azure.aux)) ) 
 Here is how much of TeX's memory you used:
- 5234 strings out of 492982
- 73195 string characters out of 6132512
- 165849 words of memory out of 5000000
- 8565 multiletter control sequences out of 15000+600000
- 13417 words of font info for 51 fonts, out of 8000000 for 9000
+ 5275 strings out of 492982
+ 74232 string characters out of 6132512
+ 168474 words of memory out of 5000000
+ 8609 multiletter control sequences out of 15000+600000
+ 13763 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,45p,937b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,11n,45p,937b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmti12.pfb>
-Output written on tcc.pdf (34 pages, 788060 bytes).
+lic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti12.pfb>
+Output written on tcc.pdf (36 pages, 1809844 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 197 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

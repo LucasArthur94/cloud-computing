@@ -1,6 +1,8 @@
-\select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Arquitetura B\IeC {\'a}sica do Heroku\cite {safariheroku}}}{22}
-\contentsline {figure}{\numberline {2}{\ignorespaces Liga\IeC {\c c}\IeC {\~a}o entre \textit {router} e \textit {dynos} do Heroku\cite {safariheroku}}}{23}
-\contentsline {figure}{\numberline {3}{\ignorespaces Exemplo do \textit {Dashboard} do Heroku com seus recursos}}{24}
-\contentsline {figure}{\numberline {4}{\ignorespaces Regi\IeC {\~o}es disponibilizadas pela Azure}}{26}
-\contentsline {figure}{\numberline {5}{\ignorespaces Camadas de Seguran\IeC {\c c}a da Azure}}{27}
+\babel@toc {brazil}{}
+\contentsline {figure}{\numberline {1}{\ignorespaces Servi\IeC {\c c}os do Google Cloud\cite {googlecloudservices}}}{21}
+\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo do \textit {Dashboard} do Google Cloud com seus recursos}}{22}
+\contentsline {figure}{\numberline {3}{\ignorespaces Arquitetura B\IeC {\'a}sica do Heroku\cite {safariheroku}}}{25}
+\contentsline {figure}{\numberline {4}{\ignorespaces Liga\IeC {\c c}\IeC {\~a}o entre \textit {router} e \textit {dynos} do Heroku\cite {safariheroku}}}{26}
+\contentsline {figure}{\numberline {5}{\ignorespaces Exemplo do \textit {Dashboard} do Heroku com seus recursos}}{27}
+\contentsline {figure}{\numberline {6}{\ignorespaces Regi\IeC {\~o}es disponibilizadas pela Azure}}{29}
+\contentsline {figure}{\numberline {7}{\ignorespaces Camadas de Seguran\IeC {\c c}a da Azure}}{30}

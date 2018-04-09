@@ -1,0 +1,57 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem{googlecloudservices}
+\abntrefinfo{Langit}{LANGIT}{2017}
+{LANGIT, L. \emph{Scaling Galaxy on Google Cloud Platform}. 2017.
+Dispon{\'\i}vel em:
+  \url{https://www.slideshare.net/lynnlangit/scaling-galaxy-on-google-cloud-platform}.}
+
+\bibitem{safariheroku}
+\abntrefinfo{Schneeman e Middleton}{SCHNEEMAN; MIDDLETON}{2013}
+{SCHNEEMAN, R.; MIDDLETON, N. \emph{Heroku: Up and Running}. 2013.
+Dispon{\'\i}vel em:
+  \url{https://www.safaribooksonline.com/library/view/heroku-up-and/9781449341381/ch02.html}.}
+
+\bibitem{googlecloudfunctions}
+\abntrefinfo{Google}{GOOGLE}{2018a}
+{GOOGLE. \emph{Cloud Functions}. 2018.
+Dispon{\'\i}vel em: \url{https://cloud.google.com/functions/?hl=pt-br}.}
+
+\bibitem{googlecloudappengine}
+\abntrefinfo{Google}{GOOGLE}{2018b}
+{GOOGLE. \emph{App Engine}. 2018.
+Dispon{\'\i}vel em: \url{https://cloud.google.com/appengine/?hl=pt-br}.}
+
+\bibitem{kubernetes}
+\abntrefinfo{Google}{GOOGLE}{2018c}
+{GOOGLE. \emph{Kubernetes}. 2018.
+Dispon{\'\i}vel em: \url{https://kubernetes.io/}.}
+
+\bibitem{googlecloudcontainerengine}
+\abntrefinfo{Google}{GOOGLE}{2018d}
+{GOOGLE. \emph{Container Engine}. 2018.
+Dispon{\'\i}vel em:
+  \url{https://cloud.google.com/kubernetes-engine/?hl=pt-br}.}
+
+\bibitem{googlecloudcomputeengine}
+\abntrefinfo{Google}{GOOGLE}{2018e}
+{GOOGLE. \emph{Compute Engine}. 2018.
+Dispon{\'\i}vel em: \url{https://cloud.google.com/compute/?hl=pt}.}
+
+\bibitem{dockercontainer}
+\abntrefinfo{Docker}{DOCKER}{2018}
+{DOCKER. \emph{What is a Container}. 2018.
+Dispon{\'\i}vel em: \url{https://www.docker.com/what-container}.}
+
+\bibitem{herokucontainerregistry}
+\abntrefinfo{Heroku}{HEROKU}{2018}
+{HEROKU. \emph{Container Registry \& Runtime (Docker Deploys)}. 2018.
+Dispon{\'\i}vel em:
+  \url{https://devcenter.heroku.com/articles/container-registry-and-runtime}.}
+
+\end{thebibliography}

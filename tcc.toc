@@ -1,4 +1,4 @@
-\select@language {brazil}
+\babel@toc {brazil}{}
 \contentsline {chapter}{Parte~I:~\MakeUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{8}
 \contentsline {chapter}{\numberline {1}Objetivo}{9}
 \contentsline {section}{\numberline {1.1}Introdu\IeC {\c c}\IeC {\~a}o}{9}
@@ -23,14 +23,22 @@
 \contentsline {section}{\numberline {9.1}Introdu\IeC {\c c}\IeC {\~a}o}{20}
 \contentsline {chapter}{\numberline {10}Google Cloud}{21}
 \contentsline {section}{\numberline {10.1}Introdu\IeC {\c c}\IeC {\~a}o}{21}
-\contentsline {chapter}{\numberline {11}Heroku}{22}
-\contentsline {section}{\numberline {11.1}Introdu\IeC {\c c}\IeC {\~a}o}{22}
-\contentsline {section}{\numberline {11.2}Funcionamento b\IeC {\'a}sico}{22}
-\contentsline {section}{\numberline {11.3}Tarifa\IeC {\c c}\IeC {\~a}o}{23}
-\contentsline {section}{\numberline {11.4}\textit {Containers}}{24}
-\contentsline {section}{\numberline {11.5}Conclus\IeC {\~a}o}{25}
-\contentsline {chapter}{\numberline {12}Azure}{26}
-\contentsline {section}{\numberline {12.1}Introdu\IeC {\c c}\IeC {\~a}o}{26}
-\contentsline {section}{\numberline {12.2}Vantagens e diferenciais}{27}
-\contentsline {section}{\numberline {12.3}Desvantagens}{28}
-\contentsline {section}{\numberline {12.4}Conclus\IeC {\~a}o}{28}
+\contentsline {section}{\numberline {10.2}Funcionamento b\IeC {\'a}sico}{22}
+\contentsline {subsection}{\numberline {10.2.1}Cloud Functions}{22}
+\contentsline {subsection}{\numberline {10.2.2}App Engine}{23}
+\contentsline {subsection}{\numberline {10.2.3}Kubernetes Engine}{23}
+\contentsline {subsection}{\numberline {10.2.4}Compute Engine}{23}
+\contentsline {section}{\numberline {10.3}Outros servi\IeC {\c c}os}{24}
+\contentsline {section}{\numberline {10.4}Conclus\IeC {\~a}o}{24}
+\contentsline {chapter}{\numberline {11}Heroku}{25}
+\contentsline {section}{\numberline {11.1}Introdu\IeC {\c c}\IeC {\~a}o}{25}
+\contentsline {section}{\numberline {11.2}Funcionamento b\IeC {\'a}sico}{25}
+\contentsline {section}{\numberline {11.3}Tarifa\IeC {\c c}\IeC {\~a}o}{26}
+\contentsline {section}{\numberline {11.4}\textit {Containers}}{27}
+\contentsline {section}{\numberline {11.5}Conclus\IeC {\~a}o}{28}
+\contentsline {chapter}{\numberline {12}Azure}{29}
+\contentsline {section}{\numberline {12.1}Introdu\IeC {\c c}\IeC {\~a}o}{29}
+\contentsline {section}{\numberline {12.2}Vantagens e diferenciais}{30}
+\contentsline {section}{\numberline {12.3}Desvantagens}{31}
+\contentsline {section}{\numberline {12.4}Conclus\IeC {\~a}o}{31}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{32}

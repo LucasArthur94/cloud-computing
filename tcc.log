@@ -1,27 +1,27 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.14)  9 APR 2018 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.3.12)  9 APR 2018 20:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tcc.tex
 (./tcc.tex
-LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 4 language(s) loaded.
 (./politex.cls
 Document Class: politex 2013/12/29 POLI-USP LaTeX Class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -233,17 +233,11 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+01E02 (decimal 7682)
+   defining Unicode char U+01E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
    defining Unicode char U+201A (decimal 8218)
@@ -255,14 +249,12 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -302,8 +294,8 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -326,10 +318,10 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count79
 \calc@Bcount=\count80
@@ -342,8 +334,8 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count81
 \calc@Cskip=\skip43
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \c@tracingmulticols=\count82
 \mult@box=\box26
 \multicol@leftmargin=\dimen104
@@ -391,9 +383,9 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \colbreak@box=\box51
 \mc@col@check@num=\count90
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/report.cls
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count91
@@ -409,21 +401,22 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip47
 \bibindent=\dimen113
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count100
@@ -439,20 +432,18 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen121
 \Gm@dimlist=\toks17
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip48
-\f@nch@O@elh=\skip49
-\f@nch@O@erh=\skip50
-\f@nch@O@olh=\skip51
-\f@nch@O@orh=\skip52
-\f@nch@O@elf=\skip53
-\f@nch@O@erf=\skip54
-\f@nch@O@olf=\skip55
-\f@nch@O@orf=\skip56
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip48
+\f@ncyO@elh=\skip49
+\f@ncyO@erh=\skip50
+\f@ncyO@olh=\skip51
+\f@ncyO@orh=\skip52
+\f@ncyO@elf=\skip53
+\f@ncyO@erf=\skip54
+\f@ncyO@olf=\skip55
+\f@ncyO@orf=\skip56
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 *geometry* verbose mode - [ newgeometry ] result:
@@ -493,44 +484,44 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 \ABNTsignthickness=\skip60
 \ABNTsignskip=\skip61
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/indentfirst.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip62
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen122
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen123
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count103
-LaTeX Info: Redefining \frac on input line 213.
+LaTeX Info: Redefining \frac on input line 199.
 \uproot@=\count104
 \leftroot@=\count105
-LaTeX Info: Redefining \overline on input line 375.
+LaTeX Info: Redefining \overline on input line 297.
 \classnum@=\count106
 \DOTSCASE@=\count107
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box52
 \strutbox@=\box53
 \big@size=\dimen124
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \macc@depth=\count108
 \c@MaxMatrixCols=\count109
 \dotsspace@=\muskip10
@@ -545,733 +536,4 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \alignsep@=\dimen126
 \tagshift@=\dimen127
 \tagwidth@=\dimen128
-\totwidth@=\dimen129
-\lineht@=\dimen130
-\@envbody=\toks21
-\multlinegap=\skip63
-\multlinetaggap=\skip64
-\mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks23
-\thm@bodyfont=\toks24
-\thm@headfont=\toks25
-\thm@notefont=\toks26
-\thm@headpunct=\toks27
-\thm@preskip=\skip65
-\thm@postskip=\skip66
-\thm@headsep=\skip67
-\dth@everypar=\toks28
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen131
-\Gin@req@width=\dimen132
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/cite/cite.sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks29
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/02/14 3.18 The Babel package
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-portuges/portuges.ldf
-Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count115
-\U@D=\dimen133
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count116
-)
-\l@brazil = a dialect from \language\l@portuges 
-Package babel Info: Making " an active character on input line 145.
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/abntex2/abntex2cite.sty
-Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip11
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-\minimumbiblabelwidth=\skip68
-\ABCIauxlen=\skip69
-\c@ABCIaux=\count117
-\c@ABCImax=\count118
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/relsize/relsize.sty
-Package: relsize 2013/03/29 ver 4.1
-)
-\biblabelsep=\skip70
-LaTeX Info: Redefining \newblock on input line 591.
-LaTeX Info: Redefining \cite on input line 862.
-LaTeX Info: Redefining \citeonline on input line 866.
-\ABCItoken=\toks30
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/blindtext/blindtext.sty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-\c@blindtext=\count119
-\c@Blindtext=\count120
-\c@blind@countparstart=\count121
-\blind@countxx=\count122
-\blindtext@numBlindtext=\count123
-\blind@countyy=\count124
-\c@blindlist=\count125
-\c@blindlistlevel=\count126
-\c@blindlist@level=\count127
-\blind@listitem=\count128
-\c@blind@listcount=\count129
-\c@blind@levelcount=\count130
-\blind@mathformula=\count131
-\blind@Mathformula=\count132
-\c@blind@randomcount=\count133
-\c@blind@randommax=\count134
-\c@blind@pangramcount=\count135
-\c@blind@pangrammax=\count136
-) (./tcc.aux
-(./introducao/objetivo.aux) (./introducao/historico.aux)
-(./aspectos_conceituais/necessidades.aux)
-(./aspectos_conceituais/funcionamento_basico.aux)
-(./aspectos_conceituais/conceitos_usados.aux)
-(./aspectos_tecnicos/estrutura.aux)
-(./aspectos_tecnicos/evolucao_tecnologica.aux) (./solucoes_mercado/aws.aux)
-(./solucoes_mercado/gcloud.aux) (./solucoes_mercado/heroku.aux)
-(./solucoes_mercado/azure.aux))
-\openout1 = `tcc.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
-* v-part:(T,H,B)=(85.35826pt, 702.78308pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=455.24411pt
-* \textheight=702.78308pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-22.91173pt
-* \headheight=14.0pt
-* \headsep=22.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count137
-\scratchdimen=\dimen134
-\scratchbox=\box54
-\nofMPsegments=\count138
-\nofMParguments=\count139
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count140
-\MPscratchDim=\dimen135
-\MPnumerator=\count141
-\makeMPintoPDFobject=\count142
-\everyMPtoPDFconversion=\toks32
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-[1
-
-
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 2189) in paragraph at lines 77--77
-\OT1/cmr/m/n/12 da Uni-ver-si-dade de S~ao Paulo para a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-
- []
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 77.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 77.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-]
-Underfull \hbox (badness 2189) in paragraph at lines 78--78
-\OT1/cmr/m/n/12 da Uni-ver-si-dade de S~ao Paulo para a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
-
- []
-
-[1
-
-] [2
-
-
-] [3
-
-] (./tcc.lof)
-\tf@lof=\write3
-\openout3 = `tcc.lof'.
-
- [4
-
-] (./tcc.lot)
-\tf@lot=\write4
-\openout4 = `tcc.lot'.
-
- [5
-
-] (./tcc.toc [6
-
-])
-\tf@toc=\write5
-\openout5 = `tcc.toc'.
-
- [7]
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 151.
-
-[8
-
-
-]
-\openout2 = `introducao/objetivo.aux'.
-
- (./introducao/objetivo.tex
-Cap\'{\i }tulo 1.
-Package epstopdf Info: Source file: <imagens/cloud_computing.eps>
-(epstopdf)                    date: 2018-04-09 19:05:03
-(epstopdf)                    size: 1020998 bytes
-(epstopdf)             Output file: <imagens/cloud_computing-eps-converted-to.p
-df>
-(epstopdf)                    date: 2018-04-09 19:05:16
-(epstopdf)                    size: 846774 bytes
-(epstopdf)             Command: <repstopdf --outfile=imagens/cloud_computing-ep
-s-converted-to.pdf imagens/cloud_computing.eps>
-(epstopdf)             \includegraphics on input line 8.
-Package epstopdf Info: Output file is already uptodate.
-<imagens/cloud_computing-eps-converted-to.pdf, id=38, 810.02625pt x 727.71875pt
->
-File: imagens/cloud_computing-eps-converted-to.pdf Graphic file (type pdf)
-<use imagens/cloud_computing-eps-converted-to.pdf>
-Package pdftex.def Info: imagens/cloud_computing-eps-converted-to.pdf  used on 
-input line 8.
-(pdftex.def)             Requested size: 324.00475pt x 291.08234pt.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 153.
-
-[9
-
-
- <./imagens/cloud_computing-eps-converted-to.pdf>]
-\openout2 = `introducao/historico.aux'.
-
-
-(./introducao/historico.tex
-Cap\'{\i }tulo 2.
-Package epstopdf Info: Source file: <imagens/ec2_history.eps>
-(epstopdf)                    date: 2018-04-09 19:51:41
-(epstopdf)                    size: 470295 bytes
-(epstopdf)             Output file: <imagens/ec2_history-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-04-09 19:53:31
-(epstopdf)                    size: 42757 bytes
-(epstopdf)             Command: <repstopdf --outfile=imagens/ec2_history-eps-co
-nverted-to.pdf imagens/ec2_history.eps>
-(epstopdf)             \includegraphics on input line 20.
-Package epstopdf Info: Output file is already uptodate.
-<imagens/ec2_history-eps-converted-to.pdf, id=55, 640.3925pt x 360.34625pt>
-File: imagens/ec2_history-eps-converted-to.pdf Graphic file (type pdf)
-<use imagens/ec2_history-eps-converted-to.pdf>
-Package pdftex.def Info: imagens/ec2_history-eps-converted-to.pdf  used on inpu
-t line 20.
-(pdftex.def)             Requested size: 384.23846pt x 216.20941pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 26.
-
-[10
-
-
-
-]
-Package epstopdf Info: Source file: <imagens/clouds.eps>
-(epstopdf)                    date: 2018-04-09 20:00:29
-(epstopdf)                    size: 3892159 bytes
-(epstopdf)             Output file: <imagens/clouds-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-04-09 20:03:43
-(epstopdf)                    size: 115464 bytes
-(epstopdf)             Command: <repstopdf --outfile=imagens/clouds-eps-convert
-ed-to.pdf imagens/clouds.eps>
-(epstopdf)             \includegraphics on input line 36.
-Package epstopdf Info: Output file is already uptodate.
-<imagens/clouds-eps-converted-to.pdf, id=59, 1146.2825pt x 562.1pt>
-File: imagens/clouds-eps-converted-to.pdf Graphic file (type pdf)
-<use imagens/clouds-eps-converted-to.pdf>
-Package pdftex.def Info: imagens/clouds-eps-converted-to.pdf  used on input lin
-e 36.
-(pdftex.def)             Requested size: 458.50488pt x 224.83601pt.
-
-Overfull \hbox (3.26077pt too wide) in paragraph at lines 36--37
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [11 <./imagens/ec2_history-eps-converted-to.pdf>] [12 <./imagens/clouds-eps-c
-onverted-to.pdf>] [13
-
-
-]
-\openout2 = `aspectos_conceituais/necessidades.aux'.
-
- (./aspectos_conceituais/necessidades.tex
-Cap\'{\i }tulo 3.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 158.
-
-[14
-
-
-]
-\openout2 = `aspectos_conceituais/funcionamento_basico.aux'.
-
- (./aspectos_conceituais/funcionamento_basico.tex
-Cap\'{\i }tulo 4.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 159.
-
-[15
-
-
-
-]
-\openout2 = `aspectos_conceituais/conceitos_usados.aux'.
-
- (./aspectos_conceituais/conceitos_usados.tex
-Cap\'{\i }tulo 5.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 160.
-
-[16
-
-
-
-] [17
-
-
-]
-\openout2 = `aspectos_tecnicos/estrutura.aux'.
-
- (./aspectos_tecnicos/estrutura.tex
-Cap\'{\i }tulo 6.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 164.
-
-[18
-
-
-]
-\openout2 = `aspectos_tecnicos/evolucao_tecnologica.aux'.
-
- (./aspectos_tecnicos/evolucao_tecnologica.tex
-Cap\'{\i }tulo 7.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 165.
-
-[19
-
-
-
-] [20
-
-
-]
-\openout2 = `solucoes_mercado/aws.aux'.
-
- (./solucoes_mercado/aws.tex
-Cap\'{\i }tulo 8.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 169.
-
-[21
-
-
-]
-\openout2 = `solucoes_mercado/gcloud.aux'.
-
- (./solucoes_mercado/gcloud.tex
-Cap\'{\i }tulo 9.
-Package epstopdf Info: Source file: <imagens/google_cloud_services.eps>
-(epstopdf)                    date: 2018-04-09 17:18:15
-(epstopdf)                    size: 1023935 bytes
-(epstopdf)             Output file: <imagens/google_cloud_services-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2018-04-09 17:18:24
-(epstopdf)                    size: 67014 bytes
-(epstopdf)             Command: <repstopdf --outfile=imagens/google_cloud_servi
-ces-eps-converted-to.pdf imagens/google_cloud_services.eps>
-(epstopdf)             \includegraphics on input line 8.
-Package epstopdf Info: Output file is already uptodate.
-<imagens/google_cloud_services-eps-converted-to.pdf, id=101, 609.27625pt x 277.
-035pt>
-File: imagens/google_cloud_services-eps-converted-to.pdf Graphic file (type pdf
-)
-<use imagens/google_cloud_services-eps-converted-to.pdf>
-Package pdftex.def Info: imagens/google_cloud_services-eps-converted-to.pdf  us
-ed on input line 8.
-(pdftex.def)             Requested size: 456.95605pt x 207.77573pt.
-
-Overfull \hbox (1.71194pt too wide) in paragraph at lines 8--9
- [][] 
- []
-
-Package epstopdf Info: Source file: <imagens/google_cloud_dashboard.eps>
-(epstopdf)                    date: 2018-04-09 18:35:26
-(epstopdf)                    size: 5435106 bytes
-(epstopdf)             Output file: <imagens/google_cloud_dashboard-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2018-04-09 18:35:49
-(epstopdf)                    size: 162795 bytes
-(epstopdf)             Command: <repstopdf --outfile=imagens/google_cloud_dashb
-oard-eps-converted-to.pdf imagens/google_cloud_dashboard.eps>
-(epstopdf)             \includegraphics on input line 20.
-Package epstopdf Info: Output file is already uptodate.
-<imagens/google_cloud_dashboard-eps-converted-to.pdf, id=102, 1369.115pt x 657.
-45625pt>
-File: imagens/google_cloud_dashboard-eps-converted-to.pdf Graphic file (type pd
-f)
-<use imagens/google_cloud_dashboard-eps-converted-to.pdf>
-Package pdftex.def Info: imagens/google_cloud_dashboard-eps-converted-to.pdf  u
-sed on input line 20.
-(pdftex.def)             Requested size: 410.73767pt x 197.23839pt.
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 22.
-
-[22
-
-
-
- <./imagens/google_cloud_services-eps-converted-to.pdf>] [23 <./imagens/google_
-cloud_dashboard-eps-converted-to.pdf>] [24]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 70.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
-) [25]
-\openout2 = `solucoes_mercado/heroku.aux'.
-
-
-(./solucoes_mercado/heroku.tex
-Cap\'{\i }tulo 10.
-Package epstopdf Info: Source file: <imagens/heroku_architecture.eps>
-(epstopdf)                    date: 2018-04-08 13:35:33
-(epstopdf)                    size: 5760705 bytes
-(epstopdf)             Output file: <imagens/heroku_architecture-eps-converted-
-to.pdf>
-(epstopdf)                    date: 2018-04-08 13:36:01
-(epstopdf)                    size: 120075 bytes
-(epstopdf)             Command: <repstopdf --outfile=imagens/heroku_architectur
-e-eps-converted-to.pdf imagens/heroku_architecture.eps>
-(epstopdf)             \includegraphics on input line 12.
-Package epstopdf Info: Output file is already uptodate.
-<imagens/heroku_architecture-eps-converted-to.pdf, id=123, 1003.75pt x 950.5512
-5pt>
-File: imagens/heroku_architecture-eps-converted-to.pdf Graphic file (type pdf)
-<use imagens/heroku_architecture-eps-converted-to.pdf>
-Package pdftex.def Info: imagens/heroku_architecture-eps-converted-to.pdf  used
- on input line 12.
-(pdftex.def)             Requested size: 200.74644pt x 190.10687pt.
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 17.
-
-[26
-
-
-
- <./imagens/heroku_architecture-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <imagens/heroku_router_dynos.eps>
-(epstopdf)                    date: 2018-04-08 13:53:40
-(epstopdf)                    size: 4065243 bytes
-(epstopdf)             Output file: <imagens/heroku_router_dynos-eps-converted-
-to.pdf>
-(epstopdf)                    date: 2018-04-08 13:54:41
-(epstopdf)                    size: 90462 bytes
-(epstopdf)             Command: <repstopdf --outfile=imagens/heroku_router_dyno
-s-eps-converted-to.pdf imagens/heroku_router_dynos.eps>
-(epstopdf)             \includegraphics on input line 24.
-Package epstopdf Info: Output file is already uptodate.
-<imagens/heroku_router_dynos-eps-converted-to.pdf, id=130, 1003.75pt x 670.505p
-t>
-File: imagens/heroku_router_dynos-eps-converted-to.pdf Graphic file (type pdf)
-<use imagens/heroku_router_dynos-eps-converted-to.pdf>
-Package pdftex.def Info: imagens/heroku_router_dynos-eps-converted-to.pdf  used
- on input line 24.
-(pdftex.def)             Requested size: 200.74644pt x 134.09862pt.
- [27 <./imagens/heroku_router_dynos-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <imagens/heroku_dashboard.eps>
-(epstopdf)                    date: 2018-04-08 14:58:58
-(epstopdf)                    size: 1168463 bytes
-(epstopdf)             Output file: <imagens/heroku_dashboard-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2018-04-08 15:00:04
-(epstopdf)                    size: 32991 bytes
-(epstopdf)             Command: <repstopdf --outfile=imagens/heroku_dashboard-e
-ps-converted-to.pdf imagens/heroku_dashboard.eps>
-(epstopdf)             \includegraphics on input line 38.
-Package epstopdf Info: Output file is already uptodate.
-<imagens/heroku_dashboard-eps-converted-to.pdf, id=137, 598.235pt x 322.20375pt
->
-File: imagens/heroku_dashboard-eps-converted-to.pdf Graphic file (type pdf)
-<use imagens/heroku_dashboard-eps-converted-to.pdf>
-Package pdftex.def Info: imagens/heroku_dashboard-eps-converted-to.pdf  used on
- input line 38.
-(pdftex.def)             Requested size: 448.67514pt x 241.6522pt.
- [28 <./imagens/heroku_dashboard-eps-converted-to.pdf>]) [29]
-\openout2 = `solucoes_mercado/azure.aux'.
-
- (./solucoes_mercado/azure.tex
-Cap\'{\i }tulo 11.
-Package epstopdf Info: Source file: <imagens/azure-regions.eps>
-(epstopdf)                    date: 2018-04-09 16:55:55
-(epstopdf)                    size: 4472859 bytes
-(epstopdf)             Output file: <imagens/azure-regions-eps-converted-to.pdf
->
-(epstopdf)                    date: 2018-04-09 16:55:55
-(epstopdf)                    size: 139555 bytes
-(epstopdf)             Command: <repstopdf --outfile=imagens/azure-regions-eps-
-converted-to.pdf imagens/azure-regions.eps>
-(epstopdf)             \includegraphics on input line 12.
-Package epstopdf Info: Output file is already uptodate.
-<imagens/azure-regions-eps-converted-to.pdf, id=149, 1215.54124pt x 609.27625pt
->
-File: imagens/azure-regions-eps-converted-to.pdf Graphic file (type pdf)
-<use imagens/azure-regions-eps-converted-to.pdf>
-Package pdftex.def Info: imagens/azure-regions-eps-converted-to.pdf  used on in
-put line 12.
-(pdftex.def)             Requested size: 461.91048pt x 231.52737pt.
-
-Overfull \hbox (6.66637pt too wide) in paragraph at lines 12--13
- [][] 
- []
-
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 18.
-
-[30
-
-
-
- <./imagens/azure-regions-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <imagens/azure-security.eps>
-(epstopdf)                    date: 2018-04-09 16:55:55
-(epstopdf)                    size: 1397745 bytes
-(epstopdf)             Output file: <imagens/azure-security-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2018-04-09 16:55:55
-(epstopdf)                    size: 65631 bytes
-(epstopdf)             Command: <repstopdf --outfile=imagens/azure-security-eps
--converted-to.pdf imagens/azure-security.eps>
-(epstopdf)             \includegraphics on input line 24.
-Package epstopdf Info: Output file is already uptodate.
-<imagens/azure-security-eps-converted-to.pdf, id=156, 640.3925pt x 360.34625pt>
-
-File: imagens/azure-security-eps-converted-to.pdf Graphic file (type pdf)
-<use imagens/azure-security-eps-converted-to.pdf>
-Package pdftex.def Info: imagens/azure-security-eps-converted-to.pdf  used on i
-nput line 24.
-(pdftex.def)             Requested size: 480.2932pt x 270.25902pt.
-
-Overfull \hbox (25.04909pt too wide) in paragraph at lines 24--25
- [][] 
- []
-
-[31 <./imagens/azure-security-eps-converted-to.pdf>]) [32] (./tcc.bbl
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 97.
-
-[33
-
-
-
-]) [34] (./tcc.aux (./introducao/objetivo.aux) (./introducao/historico.aux)
-(./aspectos_conceituais/necessidades.aux)
-(./aspectos_conceituais/funcionamento_basico.aux)
-(./aspectos_conceituais/conceitos_usados.aux)
-(./aspectos_tecnicos/estrutura.aux)
-(./aspectos_tecnicos/evolucao_tecnologica.aux) (./solucoes_mercado/aws.aux)
-(./solucoes_mercado/gcloud.aux) (./solucoes_mercado/heroku.aux)
-(./solucoes_mercado/azure.aux)) ) 
-Here is how much of TeX's memory you used:
- 5275 strings out of 492982
- 74232 string characters out of 6132512
- 168474 words of memory out of 5000000
- 8609 multiletter control sequences out of 15000+600000
- 13763 words of font info for 52 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,11n,45p,937b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti12.pfb>
-Output written on tcc.pdf (36 pages, 1809844 bytes).
-PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+\totwidth@=\

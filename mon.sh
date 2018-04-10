@@ -13,13 +13,13 @@
 compile()
 {
   latex ${MAINFILE}
-  bibtex tcc
+  bibtex trabalho-cloud-computing
   latex ${MAINFILE}
   pdflatex ${MAINFILE}
 }
 
 # Constants
-MAINFILE="tcc.tex"
+MAINFILE="trabalho-cloud-computing.tex"
 
 # Main logic, do not change code below
 

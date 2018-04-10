@@ -28,7 +28,7 @@
 
 % ========== ABNT (requer ABNTeX 2) ==========
 %	http://www.ctan.org/tex-archive/macros/latex/contrib/abntex2
-\usepackage[num]{abntex2cite}
+\usepackage[num, abnt-etal-list=0]{abntex2cite}
 
 % Forçar o abntex2 a usar [ ] nas referências ao invés de ( )
 %\citebrackets{[}{]}
@@ -155,14 +155,13 @@ Cloud computing technology is a trend for new applications around the world. Lar
 
 \part{Aspectos Conceituais}
 
-\include{aspectos_conceituais/necessidades}
-\include{aspectos_conceituais/funcionamento_basico}
-\include{aspectos_conceituais/conceitos_usados}
+\include{aspectos_conceituais/conceitos_basicos}
+\include{aspectos_conceituais/modelos_para_cloud_computing}
+\include{aspectos_conceituais/arquitetura}
 
 \part{Aspectos Técnicos}
 
-\include{aspectos_tecnicos/estrutura}
-\include{aspectos_tecnicos/evolucao_tecnologica}
+\include{aspectos_tecnicos/aspectos_tecnicos}
 
 \part{Soluções do Mercado}
 

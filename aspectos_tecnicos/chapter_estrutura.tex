@@ -1,6 +1,29 @@
 \chapter{Estrutura}
+	Este capítulo descreve alguns dos mecanismos de baixo nível que os provedores de nuvem utilizam para prover seus serviços. No modelo de IaaS por exemplo a nuvem provisiona ao cliente uma máquina virtual carregada com uma imagem. O conceito de virtualização é antigo porém é extremamente importante no contexto de cloud computing. Nas secções seguintes descreveremos os mecanismos principais.
 
-\section{Hypervisor}
-\section{Orquestrador}
-\section{Armazenamento}
-\section{Rede}
+
+	\section{Hypervisor}
+	Um \textit{hypervisor} é uma espécie de sistema operacional usado para criar e gerenciar máquinas virtuais. Como cada máquina tem seu próprio sistema operacional, uma aplicação de um cliente é gerenciada por duas camadas de sistema operacional: o \textit{hypervisor} e o sistema operacional da máquina virtual. O \textit{hypervisor} administra o SO da máquina virtual e o SO da máquina virtual gerencia a aplicação do cliente. 
+
+	Os principais serviços usados pelo \textit{hypervisor} para suportar o gerenciamento de máquinas virtuais são o mapeador de páginas virtuais (\textit{virtual page mapper}) e um agendador (\textit{scheduler}). Um \textit{hypervisor} também possui outros serviços, mas não o discutiremos neste trabalho.
+
+	\subsection{Mapeador de páginas virtuais}	
+	Usar memória virtual como um mecanismo de virtualização envolve adicionar outro nível de indireção. Os processadores modernos contêm muitas otimizações para tornar esse processo mais
+	eficiente. 
+
+	Um aplicativo de usuário gera a próxima instrução com seu endereço de destino. Este endereço de destino está dentro da VM na qual o aplicativo está sendo executado. A tabela de páginas da máquina mapeia esse endereço de destino para um endereço dentro da máquina virtual com base no endereço de destino como no caso normal. 
+
+	O que é novo neste processo para nuvem é que o endereço dentro do VM é convertido em um endereço físico por uma tabela de páginas do \textit{hypervisor} que gerencia as VMs atuais.
+
+	\subsection{Agendador}
+	O agendador do \textit{hypervisor} opera como qualquer agendador de sistema operacional. Sempre que o \textit{hypervisor} tiver o controle de execução ele decide para qual máquina virtual passará o controle. Um simples agendamento de pelo algoritmo de \textit{round robin} atribui o processador a cada VM, mas muitas outras opções de algoritmos são possíveis. 
+
+	A escolha do algoritmo de agendamento correto requer que você faça suposições sobre as características de demanda das diferentes VMs hospedadas em um único servidor. Uma área de pesquisa é a aplicação de algoritmos de programação em tempo real para \textit{hypervisors}. Agendadores em tempo real é apropriado para o uso de virtualização dentro de sistemas embarcados, mas não necessariamente na nuvem ainda.
+
+
+\iffalse
+	
+	\section{Hadoop Distributed File System}
+	
+
+\fi

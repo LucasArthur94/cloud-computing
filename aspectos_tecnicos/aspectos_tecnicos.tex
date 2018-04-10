@@ -19,7 +19,7 @@
 	\subsection{Stateless}
 	Arquitear sistemas \textit{stateless} (Sem estado) permite que qualquer instância de serviço possa servir igualmente uma requisição do cliente. Assim, se um servidor falha as requisições são redirecionadas para outra instância de serviço.
 
-	\subsection{Instâncias de reserva}
+	\subsection{Instâncias reservas}
 	O sistema deve incluir instâncias reservas da aplicação, para onde o tráfego de rede será redirecionado caso as instâncias principais venham a falhar.
 
 	\subsection{Dados em zonas distintas}
@@ -49,7 +49,18 @@
 	\subsection{Exemplo: Skype Reverse NAT}
 	\fi
 
-\iffalse
+
 \section{Performance}
+
+Aplicações com boas performances computacionais são aquelas que respondem de forma instântanea ou com o tempo que lhe foi específicado, dentro de um limite tolerável que não prejudique uma atividade do usuário. Essa capacidade em uma máquina virtual ou física vai depender do que está sendo executado. Assim, cada aplicação deve monitorar a si mesma para determinar os recursos que recebe e quais irá precisar em um dado momento.
+
+Uma vantagem da computação em nuvem é o provisonamento de \textit{hosts} elásticos, isto é, que permitem que recuroso adicionais sejam adquiridos conforme for necessário. Por meio do mecanismo de clusterização uma máquina virtual adicional pode provir essa capacidade computacional extra. Alguns provedores em nuvem alocam recursos automaticamente, enquanto outros consideram a alocação responsabilidade do usuário.
+
+Mesmo se o provedor faça essa alocação de recursos de forma automática, a aplicação deve ser arquitetada de forma a estar ciente do uso de recursos atual e futuro, em qualquer instante de tempo. 
+
+O provedor não pode fazer nada mais do que usar alguns algoritmos genéricos para determinar se há necessidade de alocar ou liberar mais recursos. Uma aplicação precisa ter um modelo de seu comportamento e estar preparada para fazer uma alocação sozinha de recursos. No pior caso, a aplicação pode comparar suas previsões com a do provedor para ter uma noção do que pode ocorrer.
+
+\iffalse
+
 \section{Segurança}
 \fi

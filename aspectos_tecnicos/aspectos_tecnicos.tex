@@ -6,39 +6,48 @@
 \section{Rede}
 
 \chapter{Consideração técnicas sobre requisitos}
-	Neste capítulo apresentamos algumas considerações técnicas para cumprir com êxito três principais requisitos não funcionais claros para Cloud Computing: disponibilidade, performance e segurança.
+	Neste capítulo apresentamos algumas considerações técnicas e táticas para cumprir com êxito três principais requisitos não funcionais claros para Cloud Computing: disponibilidade, performance e segurança.
 
 \section{Disponibilidade}
 
-	Assume-se que a nuvem sempre estará disponível, 24 horas por dia, 7 dias por semana. Porém nada é a prova de falhas. 
-The cloud is assumed to be always available. But everything can fail. A virtual machine, for example, is
-hosted on a physical machine that can fail. The virtual network is less likely to fail, but it too is fallible.
-It behooves the architect of a system to plan for failure.
-The service-level agreement that Amazon provides for its EC2 cloud service provides a 99.95
-percent guarantee of service. There are two ways of looking at that number: ( 1 ) That is a high number.
-You as an architect do not need to worry about failure. (2) That number indicates that the service may
-be unavailable for .05 percent of the time. You as an architect need to plan for that .05 percent.
-Netflix is a company that streams videos to home television sets, and its reliability is an important
-business asset. N etflix also hosts much of its operation on Amazon EC2. On April 2 1 , 20 1 1 , Amazon
-EC2 suffered a four-day sporadic outage. Netflix customers, however, were unaware of any problem.
-Some of the things that N etflix did to promote availability that served them well during that period
-were reported in their tech blog. We discussed their Simian Army in Chapter 10. Some of the other
-things they did were applications of availability tactics that we discussed in Chapter 5 .
-• Stateless services. Netflix services are designed such that any service instance can serve any
-request in a timely fashion, so if a server fails, requests can be routed to another service
-instance. This is an application of the spare tactic, because the other service instance acts as a
-spare.
-• Data stored across zones. Amazon provides what they call "availability zones," which are
-distinct data centers. Netflix ensured that there were multiple redundant hot copies of the data
-spread across zones. Failures were retried in another zone, or a hot standby was invoked. This
-is an example of the active redundancy tactic.
-• Graceful degradation. The general principles for dealing with failure are applications of the
-degradation or the retnoval from service tactic:
-• Fail fast: Set aggressive timeouts such that failing components don't make the entire system
-crawl to a halt.
-• Fallbacks: Each feature is designed to degrade or fall back to a lower quality representation.
-• Feature removal: If a feature is noncritical, then if it is slow it may be removed from any
-g1ven page.
+	Assume-se que a nuvem sempre estará disponível, 24 horas por dia, 7 dias por semana. Porém nenhum de seus componentes é a prova de falhas. O host físico de uma máquina virtual pode falhar, bem como a rede virtual com menor probabilidade, ao sofrer um ataque de negação de serviço (DDoS), por exemplo.
+
+	Os provedores de serviço na nuvem fornecem dados aos consumidores sobre a porcentagem de tempo que a rede pode ficar disponível. Apesar de ser um número pequeno (para alguns planos de serviço da AWS variam entre 0,05\% e 0,001\%), é de responsabilidade do arquiteto do sistema que consumidor projetá-lo de tal forma que seja incluído um plano de contingência para essa indisponibilidade.
+
+	Discutiremos algumas táticas a seguir:
+
+	\subsection{Stateless}
+	Arquitear sistemas \textit{stateless} (Sem estado) permite que qualquer instância de serviço possa servir igualmente uma requisição do cliente. Assim, se um servidor falha as requisições são redirecionadas para outra instância de serviço.
+
+	\subsection{Instâncias de reserva}
+	O sistema deve incluir instâncias reservas da aplicação, para onde o tráfego de rede será redirecionado caso as instâncias principais venham a falhar.
+
+	\subsection{Dados em zonas distintas}
+	Um provedor na nuvem pode disponibilizar zonas distintas, que correspondem a \textit{data centers} distintos. O sistema então pode implementar uma redundância com diversas cópias dos dados espalhados por essas zonas. Se a rede de uma zona cair, uma zona que está ociosa ou a mais próxima ativa assume seu lugar.
+	
+	\subsection{Degradação silenciosa}
+ 	Os princípios para lidar com falhas em aplicações se baseam em táticas de renovação ou remoção de serviços:
+	
+	\begin{itemize}
+	\item
+	\textbf{Restauração rápida}:
+	Crie \textit{timeouts} curtos para testar periodicamente o status de cada componente, restabelencendo-o antes que o sistema sinta essa falha.
+
+	\item
+	\textbf{Downgrades}:
+	Cada feature é projetada com capacidade de ser degradada ou reduzida para uma representação de menor qualidade. Ex.: \textit{streaming} de vídeos.
+
+	\item
+	\textbf{Remoção de features}:
+	Se a rede estiver mais lenta que o normal e a \textit{feature} não for crítica, ela deve ser removida da página.
+
+	\end{itemize}
+	\iffalse
+	%TODO: Escrever
+	\subsection{Exemplo: Netflix's Simian Army}
+
+	\subsection{Exemplo: Skype Reverse NAT}
+	\fi
 
 \iffalse
 \section{Performance}

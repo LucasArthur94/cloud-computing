@@ -60,7 +60,34 @@ Mesmo se o provedor faça essa alocação de recursos de forma automática, a ap
 
 O provedor não pode fazer nada mais do que usar alguns algoritmos genéricos para determinar se há necessidade de alocar ou liberar mais recursos. Uma aplicação precisa ter um modelo de seu comportamento e estar preparada para fazer uma alocação sozinha de recursos. No pior caso, a aplicação pode comparar suas previsões com a do provedor para ter uma noção do que pode ocorrer.
 
-\iffalse
 
 \section{Segurança}
+Segurança é uma temática que geralmente abrange aspectos técnicos e não-técnicos. Muitos esquemas de segurança não podem ser provados teoricamente como modelos seguros, mas empiracamente trazem resultados.
+
+Aspectos não-técnicos são, por exemplo, o nível de confiança que é depositada no provedor de nuvem, as seguranças físicas que o servidor utiliza, e os padrões de governança implementado entre seus funcionários. Nesta secção focaremos apenas nos aspectos técnicos.
+
+\iffalse
+Applications in the cloud are accessed over the Internet using standard Internet protocols. 
+The security and privacy issues deriving from the use of the Internet are substantial but no different from the security issues faced by applications not hosted in the cloud. The one significant security element introduced by the cloud is multi-tenancy. Multi-tenancy means that your application is utilizing a virtual machine on a physical computer that is hosting multiple virtual machines. If one of the other tenants on your machine is malicious, what damage can they do to you?
 \fi
+
+O arquiteto responsável deve considerar as quatro possíveis formas de ataque abaixo utilizando \textit{multi-tenancy}:
+\begin{itemize}
+	\item
+	\textbf{Acesso indevido de informações}: 
+	Para cada \textit{tenant} é dado um conjunto de recursos virtuais. Cada recurso virtual é mapeado para um recurso físico. É possível que uma informação de um recurso físico vaze de um \textbf{tenant} para outro, com ataques de memory overflow e exploração de bugs de execução especulativa, por exemplo.
+
+	\item
+	\textbf{"Fuga"~de máquina virtual}: 
+	Uma máquina virtuaĺ é isolada 
+	A virtual machine is isolated from other virtual machines through the use of a distinct address space. It is possible, however, that an attacker can exploit software errors in the hypervisor to access information they are not entitled to. Thus far, such attacks are extremely rare.
+
+	\item
+	\textbf{Ataque por canal lateral } (\textit{Side-channel attack}): 
+	Um atacante malicioso pode deduzir partes de chaves ou informações sensíveis monitorando os horários do ativamento de cache. Isso atualmente é um estudo acadêmico mas pode se tornar um problema futuro. Outras formas de ataques laterais em criptoanálises já foram comprovadas em alguns estudos, como por exemplo, a recuperação de uma chave a partir da análise sonora a partir da captura por um microfone de ruídos de um processador primitivo. 
+\iffalse
+	\item
+	\textbf{Ataque de negação de serviço}:
+	Other tenants may use sufficient resources on the host computer so that your application is not able to provide service. Some providers allow customers to reserve entire machines for their exclusive use. Although this defeats some of the economic benefits of using the cloud, it is a mechanism to prevent multi-tenancy attacks. An organization should consider possible attacks when deciding which applications to host in the cloud, just as they should when considering any hosting option. 
+\fi
+\end{itemize}

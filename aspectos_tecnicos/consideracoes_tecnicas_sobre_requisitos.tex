@@ -1,0 +1,90 @@
+\chapter{Considerações técnicas sobre requisitos}
+	Neste capítulo apresentamos algumas considerações técnicas e táticas para cumprir com êxito três principais requisitos não funcionais claros para Cloud Computing: disponibilidade, performance e segurança.
+
+\section{Disponibilidade}
+
+	Assume-se que a nuvem sempre estará disponível, 24 horas por dia, 7 dias por semana. Porém nenhum de seus componentes é a prova de falhas. O host físico de uma máquina virtual pode falhar, bem como a rede virtual com menor probabilidade, ao sofrer um ataque de negação de serviço (DDoS), por exemplo.
+
+	Os provedores de serviço na nuvem fornecem dados aos consumidores sobre a porcentagem de tempo que a rede pode ficar disponível. Apesar de ser um número pequeno (para alguns planos de serviço da AWS variam entre 0,05\% e 0,001\%), é de responsabilidade do arquiteto do sistema que consumidor projetá-lo de tal forma que seja incluído um plano de contingência para essa indisponibilidade.
+
+	Discutiremos algumas táticas a seguir:
+
+	\subsection{Stateless}
+	Arquitear sistemas \textit{stateless} (Sem estado) permite que qualquer instância de serviço possa servir igualmente uma requisição do cliente. Assim, se um servidor falha as requisições são redirecionadas para outra instância de serviço.
+
+	\subsection{Instâncias reservas}
+	O sistema deve incluir instâncias reservas da aplicação, para onde o tráfego de rede será redirecionado caso as instâncias principais venham a falhar.
+
+	\subsection{Dados em zonas distintas}
+	Um provedor na nuvem pode disponibilizar zonas distintas, que correspondem a \textit{data centers} distintos. O sistema então pode implementar uma redundância com diversas cópias dos dados espalhados por essas zonas. Se a rede de uma zona cair, uma zona que está ociosa ou a mais próxima ativa assume seu lugar.
+	
+	\subsection{Degradação silenciosa}
+ 	Os princípios para lidar com falhas em aplicações se baseam em táticas de renovação ou remoção de serviços:
+	
+	\begin{itemize}
+	\item
+	\textbf{Restauração rápida}:
+	Crie \textit{timeouts} curtos para testar periodicamente o status de cada componente, restabelencendo-o antes que o sistema sinta essa falha.
+
+	\item
+	\textbf{Downgrades}:
+	Cada feature é projetada com capacidade de ser degradada ou reduzida para uma representação de menor qualidade. Ex.: \textit{streaming} de vídeos.
+
+	\item
+	\textbf{Remoção de features}:
+	Se a rede estiver mais lenta que o normal e a \textit{feature} não for crítica, ela deve ser removida da página.
+
+	\end{itemize}
+	\iffalse
+	%TODO: Escrever
+	\subsection{Exemplo: Netflix's Simian Army}
+
+	\subsection{Exemplo: Skype Reverse NAT}
+	\fi
+
+
+\section{Performance}
+
+Aplicações com boas performances computacionais são aquelas que respondem de forma instântanea ou com o tempo que lhe foi específicado, dentro de um limite tolerável que não prejudique uma atividade do usuário. Essa capacidade em uma máquina virtual ou física vai depender do que está sendo executado. Assim, cada aplicação deve monitorar a si mesma para determinar os recursos que recebe e quais irá precisar em um dado momento.
+
+Uma vantagem da computação em nuvem é o provisonamento de \textit{hosts} elásticos, isto é, que permitem que recuroso adicionais sejam adquiridos conforme for necessário. Por meio do mecanismo de clusterização uma máquina virtual adicional pode provir essa capacidade computacional extra. Alguns provedores em nuvem alocam recursos automaticamente, enquanto outros consideram a alocação responsabilidade do usuário.
+
+Mesmo se o provedor faça essa alocação de recursos de forma automática, a aplicação deve ser arquitetada de forma a estar ciente do uso de recursos atual e futuro, em qualquer instante de tempo. 
+
+O provedor não pode fazer nada mais do que usar alguns algoritmos genéricos para determinar se há necessidade de alocar ou liberar mais recursos. Uma aplicação precisa ter um modelo de seu comportamento e estar preparada para fazer uma alocação sozinha de recursos. No pior caso, a aplicação pode comparar suas previsões com a do provedor para ter uma noção do que pode ocorrer.
+
+
+\section{Segurança}
+Segurança é uma temática que geralmente abrange aspectos técnicos e não-técnicos. Muitos esquemas de segurança não podem ser provados teoricamente como modelos seguros, mas empiracamente trazem resultados.
+
+Aspectos não-técnicos são, por exemplo, o nível de confiança que é depositada no provedor de nuvem, as seguranças físicas que o servidor utiliza, e os padrões de governança implementado entre seus funcionários. Nesta seção focaremos apenas nos aspectos técnicos.
+
+\subsection{Multi-tenancy (multilocação)}
+Multilocação significa que seu aplicativo está utilizando uma máquina virtual em um computador físico que hospeda várias máquinas virtuais. Se um dos outros inquilinos (\textit{tenancies}) da sua máquina for mal-intencionado ele pode atacar sua aplicação.
+Este é o único elemento extra introduzido pela arquitetura em nuvem que introduz problemas exclusivos de segurança. Como os outros tipos de ataques também ocorrem em outras arquiteturas Web, eles não serão discutidos aqui.
+
+\subsection{Ataques de multilocação}
+O arquiteto responsável deve considerar as quatro possíveis formas de ataque abaixo utilizando \textit{multi-tenancy}:
+\begin{itemize}
+	\item
+	\textbf{Acesso indevido de informações}: 
+
+	Para cada \textit{tenant} é dado um conjunto de recursos virtuais. Cada recurso virtual é mapeado para um recurso físico. É possível que uma informação de um recurso físico vaze de um \textbf{tenant} para outro, com ataques de memory overflow e exploração de bugs de execução especulativa, por exemplo.
+
+	\item
+	\textbf{"Fuga"~de máquina virtual}: 
+
+	Uma máquina virtuaĺ é isolada de outras máquinas virtuais através de espaços de endereços de memória distintos. É bem difícil e raro porém possível que um atacante explore erros de software no \textit{hypervisor} para acessar informações sem autorização, através de exploits na memória virtual.
+
+	\item
+	\textbf{Ataque por canal lateral } (\textit{Side-channel attack}): 
+
+	Um atacante malicioso pode deduzir partes de chaves ou informações sensíveis monitorando os horários do ativamento de cache. Isso atualmente é um estudo acadêmico mas pode se tornar um problema futuro. Outras formas de ataques laterais em criptoanálises já foram comprovadas em alguns estudos, como por exemplo, a recuperação de uma chave a partir da análise sonora a partir da captura por um microfone de ruídos de um processador primitivo. 
+
+	\item
+	\textbf{Ataque de negação de serviço}:
+
+	Um atacatante malicioso pode criar artificialmente milhões de requisições simultâneas em alguns segundos, forçando a todos recursos serem consumidos até que não seja possível servir uma nova requisição. Essa forma de ataque de negação de serviço é comum em qualquer arquitetura web, porém em um cloud \textit{multi-tenant}, outras formas são possíveis.
+
+	Outros \textit{tenants} podem usar recursos suficientes no computador host para que seu aplicativo não seja capaz de fornecer serviço. Alguns provedores permitem que os clientes reservem máquinas inteiras para uso exclusivo. Embora isso encareça o custo do uso da nuvem, é um mecanismo efetivo contra ataques de multilocação. Uma organização deve considerar possíveis ataques ao decidir quais aplicativos hospedar na nuvem, exatamente como deveriam ao considerar qualquer opção de hospedagem.
+\end{itemize}
